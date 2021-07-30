@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 30 16:58:03 GMT 2021","Fri Jul 30 16:58:04 GMT 2021","668","","tests/helloworld.spec.js","","","","basic test",""
+"passed","Fri Jul 30 16:58:03 GMT 2021","Fri Jul 30 16:58:03 GMT 2021","123","","tests/foo.spec.js","describe area","","","test area3",""
+"passed","Fri Jul 30 16:58:02 GMT 2021","Fri Jul 30 16:58:03 GMT 2021","626","","tests/foo.spec.js","describe area","","","test area2",""
+"passed","Fri Jul 30 16:58:01 GMT 2021","Fri Jul 30 16:58:02 GMT 2021","1545","","tests/foo.spec.js","describe area","","","test area1",""

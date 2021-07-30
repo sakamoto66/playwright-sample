@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://sakamoto66.github.io/playwright-sample",
+  "buildOrder" : 8,
+  "buildName" : "GitHub Actions Run #1082962365",
+  "buildUrl" : "https://github.com/sakamoto66/playwright-sample/actions/runs/1082962365",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://sakamoto66.github.io/playwright-sample/8/"
+} ]

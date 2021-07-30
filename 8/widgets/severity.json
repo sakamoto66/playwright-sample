@@ -1,0 +1,41 @@
+[ {
+  "uid" : "6c92055c83355935",
+  "name" : "test area1",
+  "time" : {
+    "start" : 1627664281051,
+    "stop" : 1627664282596,
+    "duration" : 1545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5458b6a8ac4bd98",
+  "name" : "test area3",
+  "time" : {
+    "start" : 1627664283235,
+    "stop" : 1627664283358,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c0ed9a5ac2f7632",
+  "name" : "test area2",
+  "time" : {
+    "start" : 1627664282601,
+    "stop" : 1627664283227,
+    "duration" : 626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a8eceaba073ca24",
+  "name" : "basic test",
+  "time" : {
+    "start" : 1627664283360,
+    "stop" : 1627664284028,
+    "duration" : 668
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
