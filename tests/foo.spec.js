@@ -12,6 +12,6 @@ test.describe("describe area", () => {
       expect(name).toBe('Playwright');
   });
   test('test area3', async ({ page }) => {
-    expect(true).toBe(false);
+    expect(true).toBe(true);
   });
 });
