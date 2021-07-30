@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/sakamoto66/playwright-sample#readme",
   "devDependencies": {
-    "@playwright/test": "^1.12.3",
-    "playwright": "^1.12.3"
+    "@playwright/test": "^1.13.1",
+    "experimental-allure-playwright": "0.0.3",
+    "fs-extra": "^10.0.0",
+    "playwright": "^1.13.1"
   }
 }

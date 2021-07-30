@@ -1,10 +1,15 @@
 // playwright.config.js
 module.exports = {
-    reporter: !process.env.CI
-      // Default 'list' reporter for the terminal
-      ? 'list'
-      // Two reporters for CI:
-      // - concise "dot"
-      // - comprehensive json report
-      : [ ['dot'], [ 'junit', {  outputFile: 'results.xml' }] ],
-  };
+  use: {
+    channel: 'chrome',
+    // Context options
+    viewport: { width: 1280, height: 720 },
+    ignoreHTTPSErrors: true,
+
+    // Artifacts
+    screenshot: 'on',
+    //trace :'on',
+    //video: 'on',
+  },
+  reporter: [ ['dot'], ['experimental-allure-playwright'], [ 'json', {  outputFile: 'results.json' }] ],
+};

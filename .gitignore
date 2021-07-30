@@ -105,3 +105,6 @@ dist
 
 
 results.xml
+
+test-results/
+allure-results/
