@@ -17,4 +17,9 @@ jobs:
         if: ${{ always() }}
         with:
           name: test-artifacts
-          path: ./results.xml
+          path: ./test-results
+      - uses: actions/upload-artifact@v2
+        if: ${{ always() }}
+        with:
+          name: allure-artifacts
+          path: ./allure-results
