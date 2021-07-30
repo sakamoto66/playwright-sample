@@ -1,0 +1,83 @@
+{
+  " tests/foo.spec.js describe area test area2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98e25946fb0b227f",
+      "reportUrl" : "https://sakamoto66.github.io/playwright-sample/7//#testresult/98e25946fb0b227f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627662577113,
+        "stop" : 1627662577763,
+        "duration" : 650
+      }
+    } ]
+  },
+  " tests/foo.spec.js describe area test area1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47331c13be6dfe3",
+      "reportUrl" : "https://sakamoto66.github.io/playwright-sample/7//#testresult/47331c13be6dfe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627662575617,
+        "stop" : 1627662577111,
+        "duration" : 1494
+      }
+    } ]
+  },
+  " tests/helloworld.spec.js basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "499eb11f8636d95f",
+      "reportUrl" : "https://sakamoto66.github.io/playwright-sample/7//#testresult/499eb11f8636d95f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627662578329,
+        "stop" : 1627662579080,
+        "duration" : 751
+      }
+    } ]
+  },
+  " tests/foo.spec.js describe area test area3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da8107044372b9b7",
+      "reportUrl" : "https://sakamoto66.github.io/playwright-sample/7//#testresult/da8107044372b9b7",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true",
+      "time" : {
+        "start" : 1627662577764,
+        "stop" : 1627662577910,
+        "duration" : 146
+      }
+    } ]
+  }
+}

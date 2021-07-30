@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true",
+      "children" : [ {
+        "name" : "test area3",
+        "uid" : "da8107044372b9b7",
+        "parentUid" : "9b58840d331796e97b93f57bb701a70e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627662577764,
+          "stop" : 1627662577910,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b58840d331796e97b93f57bb701a70e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

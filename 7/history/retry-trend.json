@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 7,
+  "reportUrl" : "https://sakamoto66.github.io/playwright-sample/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 4,
+    "retry" : 0
+  }
+} ]
